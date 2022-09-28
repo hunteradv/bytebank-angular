@@ -1,3 +1,4 @@
+import { FormsModule } from '@angular/forms';
 import { NovaTransferenciaComponent } from './nova-transferencia/nova-transferencia.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -10,7 +11,8 @@ import { AppComponent } from './app.component';
     NovaTransferenciaComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
