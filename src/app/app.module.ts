@@ -1,3 +1,4 @@
+import { AppRoutingModule } from './app-routing.model';
 import { FormsModule } from '@angular/forms';
 import { NovaTransferenciaComponent } from './nova-transferencia/nova-transferencia.component';
 import { BrowserModule } from '@angular/platform-browser';
@@ -21,7 +22,8 @@ registerLocaleData(localePt, 'pt');
     BrowserModule,
     CommonModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [
     {provide: LOCALE_ID, useValue: 'pt'},
